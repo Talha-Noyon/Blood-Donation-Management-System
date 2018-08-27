@@ -1,0 +1,17 @@
+INSERT INTO `donor_list` (`Name`, `Password`, `Confirm Password`, `Address`, `Email`, `Contact No.`, `Gender`, `Blood Group`, `Last Donate Date`) VALUES ('Farhan', 'abcdef', 'abcdef', 'Mirpur', 'farhan@yahoo.com', '01675383936', 'Male', 'AB+', NULL);
+
+
+INSERT INTO `donor_list` (`Name`, `Password`, `Confirm Password`, `Address`, `Email`, `Contact No.`, `Gender`, `Blood Group`, `Last Donate Date`) VALUES ('Rakib', 'acndef', 'acndef', 'Khilgoan', 'Rakib21@gmail.com', '01839389293', 'Male', 'B+', NULL);
+
+INSERT INTO `donor_list` (`Name`, `Password`, `Confirm Password`, `Address`, `Email`, `Contact No.`, `Gender`, `Blood Group`, `Last Donate Date`) VALUES ('Joy', 'defgs', 'defgs', 'Rampura', 'joy62@gmail.com', '01675243534', 'Male', 'A+', '2016-07-11');
+
+INSERT INTO `donor_list` (`Name`, `Password`, `Confirm Password`, `Address`, `Email`, `Contact No.`, `Gender`, `Blood Group`, `Last Donate Date`) VALUES ('Arif', 'wsedr', 'wsedr', 'GreenRoad', 'arif.rabbani@gmail.com', '01675243578', 'Male', 'O+', NULL);
+
+INSERT INTO `donor_list` (`Name`, `Password`, `Confirm Password`, `Address`, `Email`, `Contact No.`, `Gender`, `Blood Group`, `Last Donate Date`) VALUES ('Shovon', 'qwer', 'qwer', 'Mohammadpur', 'sovon.kundu@gmail.com', '01698367368', 'Male', 'AB-', '2016-03-11');
+
+
+INSERT INTO `donor_list` (`Name`, `Password`, `Confirm Password`, `Address`, `Email`, `Contact No.`, `Gender`, `Blood Group`, `Last Donate Date`) VALUES ('Sunzid', 'xcvb', 'xcvb', 'Azimpur', 'sunzid34@gmail.com', '01902903939', 'Male', 'O-', NULL);
+
+DELETE FROM `donor_list` WHERE Name ='Sunzid'
+
+UPDATE `donor_list` SET `Password`='sam' WHERE `Name`='sam'
